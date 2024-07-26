@@ -6,14 +6,18 @@
 }
 body{
     background-color: hsl(0, 0%, 8%);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
 .card{
     display: flex;
     width: 300px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 8px;
-    margin: 100px auto;
     flex-direction: column;
+
 }
 .card img{
     width: 50%;
